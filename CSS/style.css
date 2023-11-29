@@ -1,0 +1,683 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+html {
+  box-sizing: border-box;
+  font-family: "ff-meta-serif-web-pro", serif;
+  color: #555;
+  font-size: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===============================================Ảnh/nav trang chủ==================================*/
+/*===========BackGround image============*/
+.AnhGiua {
+  height: 850px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+/*===========illustration img================*/
+.illust1 {
+  height: 475px;
+  width: 650px;
+  right: 150px;
+  position: absolute;
+  bottom: 50px;
+}
+.illust2 {
+  height: 475px;
+  width: 475;
+  right: 40px;
+  position: absolute;
+  bottom: 50px;
+}
+/*=============================================navigation===================================*/
+.centered {
+  font-family: "Segoe UI";
+  font-size: 20px;
+  position: absolute;
+  top: 6.5%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2px;
+}
+
+.circle {
+  background-color: #de3a2f;
+  border-radius: 100%;
+  height: 42px;
+  left: 4.5%;
+  position: absolute;
+  top: 3%;
+  width: 42px;
+}
+
+.line {
+  content: "";
+  width: 1.5px;
+  height: 42px;
+  background-color: white;
+  position: absolute;
+  top: 4%;
+  left: 14%;
+}
+.chiennav,
+.diennav,
+.giangnav,
+.haunav,
+.nhinav {
+  line-height: normal;
+  top: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
+  position: absolute;
+  top: 5.2%;
+  letter-spacing: 2px;
+}
+.chiennav {
+  left: 18%;
+}
+
+.diennav {
+  left: 25%;
+}
+.giangnav {
+  left: 32%;
+}
+.haunav {
+  left: 39%;
+}
+.nhinav {
+  left: 46%;
+}
+
+/*==========================================Text - Trang chủ ========================================*/
+/*========================================="Xin chào chúng mình là team 2"========================*/
+.overlap-group1 {
+  height: 100px;
+  margin-top: 220px;
+  text-align: left;
+  margin-left: 50px;
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+}
+.explo {
+  margin-top: 150px;
+  margin-left: 40px;
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/*container*/
+.xin-cho-cong-mnh {
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: small;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 508px;
+  left: 394px;
+  width: 716px;
+}
+.overlap-group-2 {
+  height: 400px;
+  left: 258px;
+  position: absolute;
+  top: 0;
+}
+/*=============="Portfolio"===============*/
+.title {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 180px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 120px;
+  left: -150px;
+}
+
+/*========================================WELCOME===================================*/
+.anchornav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.anchornav li {
+  display: block;
+}
+.anchornav a {
+  display: block;
+  padding: 1.5em 1.5em 1.5em 5em;
+  font-family: "nimbus-sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1.4px;
+  color: inherit;
+}
+.anchornav a span {
+  display: inline;
+  padding: 0.5em 0 0 0.2em;
+  opacity: 0.3;
+  letter-spacing: normal;
+  font-family: "ff-meta-serif-web-pro", serif;
+  text-transform: none;
+}
+.anchornav a:hover {
+  color: #de5f5f;
+}
+.anchornav a:hover span {
+  opacity: 1;
+  color: #181818;
+}
+
+/*=================================The different sections========================*/
+.section {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  min-height: 60vh;
+  width: 100%;
+  align-content: center;
+  padding: 20vh 50px 20vh 75px;
+}
+.section svg {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+}
+.section svg.bottom {
+  bottom: 0;
+  top: auto;
+  fill: grey;
+}
+.section .section__inner {
+  height: 80%;
+  margin: auto auto auto 0;
+}
+.section.section--hello {
+  background-color: #f9e25b;
+  color: #303f46;
+}
+.section.section--intro {
+  max-width: 100%;
+  background-color: white;
+  color: #555;
+}
+
+.section.section--home {
+  background-color: black;
+  color: white;
+}
+.section.section--home {
+  width: 100%;
+  height: 850px;
+}
+.section.section--home svg {
+  fill: #343436;
+}
+.section.section--timeline {
+  max-width: 100%;
+  background-color: #f7ecc8;
+  color: #850000;
+}
+.section.section--timeline svg {
+  top: -20px;
+  fill: #f7ecc8;
+}
+.section.section--timeline svg.bottom {
+  top: auto;
+  bottom: -50px;
+}
+.section.section--portfolio1 {
+  background-color: #a8cce3;
+  color: #4a536e;
+}
+.section.section--portfolio1 svg {
+  top: -50px;
+  fill: #a8cce3;
+}
+
+.section.section--contact svg {
+  fill: white;
+}
+
+.section .section__inner p {
+  text-align: justify;
+}
+
+.section.section--contact a:hover {
+  background: linear-gradient(to top, yellow 50%, transparent 50%);
+}
+
+.section.section--portfolio1 h3:hover {
+  color: white;
+}
+.section.section--portfolio1 a:hover {
+  color: white;
+  background-color: #284355;
+  border-radius: 2em;
+}
+.section.section--intro p {
+  max-width: 65%;
+}
+
+/*==========================================Typo======================================*/
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h5 {
+  font-family: "nimbus-sans", sans-serif;
+  font-weight: bold;
+  margin: 0 0 1em;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+
+h1 a,
+.h1 a,
+h2 a,
+.h2 a,
+h3 a,
+.h3 a,
+h4 a,
+.h5,
+a {
+  color: inherit;
+}
+h1 a:hover,
+.h1 a:hover,
+h2 a:hover,
+.h2 a:hover,
+h3 a:hover,
+.h3 a:hover,
+h4 a:hover,
+.h5 a:hover {
+  border-bottom: none;
+}
+h1 span,
+.h1 span,
+h2 span,
+.h2 span,
+h3 span,
+.h3 span,
+h4 span,
+.h5 span {
+  color: #de5f5f;
+}
+
+h1,
+.h1,
+h2,
+.h2 {
+  font-size: 50px;
+}
+
+.pre {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  word-spacing: 0.08rem;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+  color: inherit;
+}
+.pre span {
+  font-size: 0.9em;
+  margin-right: 0.4em;
+  opacity: 0.5;
+}
+.pre:hover {
+  opacity: 1;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+p a {
+  font-weight: bold;
+  color: inherit;
+}
+p a:hover {
+  border-bottom: none;
+}
+
+.lead {
+  display: block;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.portfolio {
+  font-size: 0.75rem;
+}
+.portfolio.block {
+  display: inline-block;
+  width: 100%;
+}
+
+.portfolio .link {
+  display: block;
+  margin: 2em 0 0 0;
+  color: #555;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.portfolio p {
+  font-size: inherit;
+  color: #343436;
+  opacity: 0.7;
+}
+
+/*==========================================TYPING WORD==============================*/
+.wrapper {
+  width: 100%;
+  height: 3.5rem;
+  display: grid;
+  place-items: left; /*gõ chữ từ trái qua*/
+  margin-bottom: 2.5rem;
+}
+
+.typing {
+  width: 100%;
+  font-size: 3em;
+}
+
+/*=======================================Portfolio======================*/
+.content {
+  width: 100%;
+}
+
+.team {
+  padding: 2em 0 2em 2.5em;
+  margin: 0;
+}
+
+.member {
+  margin: 1.5em 0 1em;
+  padding: 0.73em;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  transform: scale(0.85);
+  margin-left: 9vmin;
+}
+
+.member:nth-of-type(even) {
+  text-align: right;
+  margin-right: 9vmin;
+}
+
+.thumb {
+  width: 15vmin;
+  height: 15vmin;
+  float: left;
+  margin-right: 1.25em;
+  margin-top: 0.75em;
+  overflow: hidden;
+  margin-left: -3em;
+  padding: 0.5em;
+}
+
+.member:nth-of-type(even) .thumb {
+  float: right;
+  margin-left: 2em;
+  margin-right: -3em;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4em;
+  filter: grayscale(1);
+}
+
+.member:hover {
+  transform: scale(1);
+}
+
+.member:hover .thumb img {
+  filter: none;
+  border-radius: 4em;
+}
+
+.member:nth-of-type(odd) h3 {
+  font-family: "League Spartan", sans-serif;
+  text-transform: uppercase;
+  margin-left: 1em;
+  margin-top: -2.25em;
+  left: 9vmin;
+  padding: 0.5em 0.5em 0.5em 2em;
+  transform-origin: left bottom;
+  /*transform: rotate(2deg);*/
+}
+
+.member:nth-of-type(even) h3 {
+  font-family: "League Spartan", sans-serif;
+  text-transform: uppercase;
+  margin-top: -2.25em;
+  margin-right: 2.2em;
+  left: 9vmin;
+  right: 9vmin;
+  padding: 0.5em 0.5em 0.5em 2em;
+  /*transform: rotate(2deg);*/
+  transform-origin: right bottom;
+}
+
+.description p a img {
+  float: left;
+  width: 22px;
+  filter: invert(1);
+  padding: 2px;
+  margin-right: 2px;
+  color: white;
+}
+
+.description {
+  padding-top: 1vmin;
+}
+
+.description p {
+  padding: 0 2em;
+  margin-bottom: 1em;
+}
+
+.description p a {
+  display: inline-block;
+  margin: 0.5em 0 0 0;
+  padding: 0.1em 0.5em 0.35em;
+  text-decoration: none;
+}
+
+.description p {
+  width: 100%;
+  padding: 50px;
+  border-radius: 110px;
+  border: 2px solid white;
+}
+
+.photo_frame:nth-of-type(even) {
+  width: 100%;
+  margin-right: 10vmin;
+  position: relative;
+  border: 3px solid;
+  height: 25vmin;
+  border-radius: 4em;
+}
+
+.photo_frame .photo img {
+  width: 100%;
+  height: 5vmin;
+  object-fit: cover;
+  position: absolute;
+  right: 3vmin;
+  bottom: 2vh;
+  z-index: 1;
+  border-radius: 4em;
+}
+
+/*=============================HIGHLIGHT==============================*/
+.half_background {
+  background: linear-gradient(to top, yellow 50%, transparent 50%);
+}
+/*==========TIMELINE=============*/
+.timeline {
+  line-height: 1.4em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6 {
+  line-height: inherit;
+}
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+  padding-left: 40px;
+  position: relative;
+}
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 0.5em 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+}
+/*red circle marker*/
+.timeline-marker:before {
+  background: #ff6b6b;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+/*line*/
+.timeline-marker:after {
+  content: "";
+  width: 3px;
+  background: #850000;
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+}
+/*Sau phần tử cuối không còn line nữa*/
+.timeline-item:last-child .timeline-marker:after {
+  content: none;
+}
+
+/*hover red circle*/
+.timeline-item:hover .timeline-marker:before {
+  background: transparent;
+  border: 3px solid #ff6b6b;
+}
+
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+  padding-bottom: 40px;
+}
+
+.timeline-centered,
+.timeline-centered .timeline-item,
+.timeline-centered .timeline-info,
+.timeline-centered .timeline-marker,
+.timeline-centered .timeline-content {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.timeline-centered .timeline-item {
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.timeline-centered .timeline-marker {
+  position: absolute;
+  left: 50%;
+  margin-left: -7.5px;
+}
+.timeline-centered .timeline-info,
+.timeline-centered .timeline-content {
+  width: 50%;
+}
+
+/*Phần tử con TRỰC TIẾP của .timeline-centered sẽ được định dạng như sau:*/
+.timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
+  float: left;
+  text-align: right;
+  padding-right: 30px;
+}
+.timeline-centered > .timeline-item:nth-child(odd) .timeline-content {
+  float: right;
+  text-align: left;
+  padding-left: 30px;
+}
+.timeline-centered > .timeline-item:nth-child(even) .timeline-info {
+  float: right;
+  text-align: left;
+  padding-left: 30px;
+}
+.timeline-centered > .timeline-item:nth-child(even) .timeline-content {
+  float: left;
+  text-align: right;
+  padding-right: 30px;
+}

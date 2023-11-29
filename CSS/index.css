@@ -1,0 +1,11 @@
+body{
+    margin-top: 0px;
+}
+
+#header-blur{
+    position: fixed;
+    width: 100%;
+    height: 15px;
+    filter: blur(20px);
+    background-color: black;
+}
